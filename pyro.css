@@ -1,0 +1,124 @@
+/* ==== BASIS === */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1b2963;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  /* ==== VIDEO-HINTERGRUND ==== */
+  #bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    object-fit: cover;
+  }
+
+  .card i,
+.name-plain i {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 41, 99, 0.85);
+    z-index: -1;
+  }
+  
+  /* ==== LAYOUT ==== */
+  .container {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* ==== LOGO OBEN ==== */
+  .logo {
+    width: 320px;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ==== HEADLINE / INTRO ==== */
+  .intro-text h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #db87c7;
+  }
+  
+  .intro-text p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  /* ==== BOXEN ==== */
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 90%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #db87c7; /* Nebenfarbe */
+    color: #1b2963; /* Hintergrundfarbe für Kontrast */
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff70f1;
+  }
+  
+  .card a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .card:hover a {
+    color: #1b2963;
+    font-weight: bold;
+  }
+  
+  /* ==== STARRER NAME ALS TEXT OHNE KARTE ==== */
+  .name-plain {
+    font-size: 1rem;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* ==== KONTAKTÜBERSCHRIFT ==== */
+  .kontakt-header {
+    font-size: 1.6rem;
+    margin-top: 50px;
+    color: #db87c7;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  /* ==== ABSCHNITTE ==== */
+  .socials,
+  .contact {
+    margin-top: 20px;
+  }
+  
